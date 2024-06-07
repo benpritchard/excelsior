@@ -1,0 +1,55 @@
+<template id="sc-location-form-near">
+  {%- default location_group: blank -%}
+  {%- default found_locations: "no-search" -%}
+  {%- default google_maps_api_key: blank -%}
+
+  <form
+    method="get"
+    class="sc-flex-col sc-gap-tiny"
+    data-zone="{{ current_store.zone.name }}"
+    data-location-search-form="near"
+    data-location-search-group="{{ location_group.identifier }}"
+    data-distance-unit-imperial="{{ "locations.search.results.abbr.imperial" | t }}"
+    data-distance-unit-metric="{{ "locations.search.results.abbr.metric" | t }}">
+    <input type="hidden" name="search_by" value="near">
+    <input type="hidden" name="distance_unit">
+    <input type="hidden" name="lat" value="{{ current_request.params.lat }}">
+    <input type="hidden" name="lng" value="{{ current_request.params.lng }}">
+    <div class="sc-flex-row sc-gap-tiny">
+      <div class="SC-Field sc-grow sc-m-none">
+        <label class="SC-Field_label" for="locations_distance">
+          {{ "locations.search.forms.near.fields.address.label" | t }}
+          <span data-location-error class="sc-color-error sc-hide">
+            {{ "locations.search.forms.near.fields.address.errors.invalid_address" | t }}
+          </span>
+          <button data-use-geoloc class="SC-Link sc-hide" type="button">
+            {{ "locations.search.forms.near.fields.address.use_current_location" | t }}
+          </button>
+        </label>
+        <input
+          type="text"
+          name="address"
+          class="SC-Field_input sc-expand"
+          id="locations_address"
+          placeholder="{{ "locations.search.forms.near.fields.address.placeholder" | t }}"
+          value="{{ current_request.params.address }}"
+          autofocus>
+      </div>
+      <div class="SC-Field sc-m-none" style="width: 110px">
+        <label class="SC-Field_label" for="locations_distance">
+          {{ "locations.search.forms.near.fields.distance.label" | t }}
+          (<span data-distance-unit></span>)
+        </label>
+        <input type="number" name="distance" class="SC-Field_input sc-expand" id="locations_distance" min="1" placeholder="{{ "locations.search.forms.near.fields.distance.placeholder" | t }}" value="{{ current_request.params.distance | default: theme_variables["locations.search.default_distance"] }}">
+      </div>
+    </div>
+    {%- render "locations/product", product: filter_product, location_group: location_group %}
+    {%- render "locations/forms/category", location_group: location_group, form_id: "near" %}
+    <button class="SC-Button SC-Button-primary sc-expand" type="submit" disabled data-submit>
+      {{ "locations.search.forms.exact.buttons.submit" | t: name: location_group.name }}
+    </button>
+    {%- unless found_locations == "no-search" %}
+      {%- render "locations/results_summary", found_locations: found_locations %}
+    {%- endunless %}
+  </form>
+</template>

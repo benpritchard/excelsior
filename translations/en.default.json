@@ -1,0 +1,2201 @@
+{
+  "accounts": {
+    "account_credit": {
+      "index": {
+        "created_at": "Date",
+        "current_balance": "Current Balance",
+        "display_name": "Credit for",
+        "expires_at": "Expiry Date",
+        "heading": "Account Credits",
+        "no_account_credits": "No Account Credits",
+        "no_expiry": "Does not expire",
+        "opening_balance": "Original Balance",
+        "view": "View"
+      },
+      "show": {
+        "account_credit_details": "Details",
+        "current_balance": "Current Balance",
+        "expires_at": "Expiry Date",
+        "heading": "Account Credit",
+        "no_expiry": "Does not expire",
+        "opening_balance": "Original Balance",
+        "transaction": {
+          "amount": "Amount",
+          "contact": "Who",
+          "created_at": "Date",
+          "no_order": "no order",
+          "order": "Order",
+          "system": "System",
+          "type": "Type"
+        },
+        "transaction_heading": "Transactions",
+        "type": {
+          "credit": "credit",
+          "debit": "debit"
+        }
+      }
+    },
+    "account_points": {
+      "current_balance": "Current Balance",
+      "heading": "Account Points",
+      "no_transactions": "No Transactions",
+      "pending_balance": "Pending Balance",
+      "transactions": {
+        "heading": "Transactions",
+        "headings": {
+          "amount": "Amount",
+          "contact": "Who",
+          "created_at": "Date",
+          "expires_at": "Expiry Date",
+          "product": "Item",
+          "type": "Type"
+        },
+        "no_expiry": "Does not expire",
+        "pending": "pending",
+        "type": {
+          "enum": {
+            "credit": "credit",
+            "debit": "debit"
+          }
+        }
+      }
+    },
+    "billing": {
+      "heading": "Billing Address",
+      "path": "billing",
+      "update": "Update your billing address"
+    },
+    "contact": {
+      "company_name": "Company",
+      "email": "Email",
+      "firstname": "First name",
+      "heading": "Contact Details",
+      "lastname": "Last name",
+      "path": "contact",
+      "phone": "Phone",
+      "update": "Update your contact details"
+    },
+    "credentials": {
+      "confirm_new_password": "Confirm new password",
+      "heading": "Login Details",
+      "new_password": "New password",
+      "path": "credentials",
+      "update": "Update your login details",
+      "username": "Username"
+    },
+    "menu": {
+      "account_credits": "Account credits",
+      "account_points": "Account points",
+      "billing": "Billing Address",
+      "contact": "Contact details",
+      "credentials": "Login details",
+      "log_out": "Log out",
+      "orders": "Orders",
+      "product_approvals": "Product approvals",
+      "profile": "Account",
+      "shipping": "Shipping Address",
+      "subscriptions": "Subscriptions"
+    },
+    "not_authorized": {
+      "heading": "Not Authorized",
+      "message": "You are not authorized to access this page."
+    },
+    "orders": {
+      "bookings": {
+        "attendees": {
+          "add_attendee": "Add attendee",
+          "attendee_question": "Who is attending?",
+          "cancel": "Cancel",
+          "edit": "Edit",
+          "for_another": "Another person is attending",
+          "for_me": "I am attending",
+          "heading": "Attendees",
+          "placeholders": {
+            "email": "Email",
+            "first_name": "First name",
+            "last_name": "Last name",
+            "phone": "Phone"
+          },
+          "save": "Save"
+        },
+        "attendees_required_notice": "Your booking has been received. Please also make sure to submit the attendee details below.",
+        "heading": "Bookings"
+      },
+      "delivery": {
+        "heading": "Delivery Preferences"
+      },
+      "index": {
+        "currency_and_points_connector": "and",
+        "date": "Date",
+        "heading": "Orders",
+        "items": "Items",
+        "no_orders": "No orders",
+        "reference": "Reference",
+        "reorder": "Reorder",
+        "status": "Status",
+        "total": "Total",
+        "view": "View"
+      },
+      "navigation": {
+        "back_to_show": "Back to Order"
+      },
+      "payments": {
+        "shared": {
+          "currency_and_points_connector": "and",
+          "status": {
+            "enum": {
+              "failed": "Failed",
+              "pending": "Pending",
+              "success": "Success"
+            }
+          }
+        }
+      },
+      "shared": {
+        "status": {
+          "enum": {
+            "activated": "Complete",
+            "draft": "Draft"
+          }
+        }
+      },
+      "show": {
+        "collection_point": {
+          "click_and_collect": "Click & Collect",
+          "collection_date": "Collection date",
+          "immediate_lead_time": "You can pick this up immediately",
+          "lead_time": "Please allow %{time} before pick up"
+        },
+        "customer_notes": "Customer Notes",
+        "earned_points": "Points Earned",
+        "guests": {
+          "link_oauth_account_message": "Create an account to allow you to login and check the status of your order at any time.",
+          "register": {
+            "password": "Password",
+            "submit": "Save Password",
+            "via": "Or sign up via one of these:"
+          },
+          "save_password_message": "Set a password to allow you to login and check the status of your order at any time.",
+          "your_order_status": "Your Order Status"
+        },
+        "heading": "Reference: %{order_number}",
+        "members": {
+          "login_message": "Log into your account to track this order in the future."
+        },
+        "not_found": "Could not find that order",
+        "order_status": "Status: %{order_status}",
+        "order_summary": {
+          "header": "Order Summary"
+        },
+        "payment_method": "Payment method",
+        "reorder": "Reorder",
+        "shipping_details": "Shipping details"
+      }
+    },
+    "product_approvals": {
+      "index": {
+        "approved_from": "Valid From",
+        "approved_until": "Valid Until",
+        "heading": "Product Approvals",
+        "no_product_approvals": "No Product Approvals",
+        "product": "Product / Category",
+        "remaining_quantity": "Remaining",
+        "status": "Status",
+        "view_details_link": "View"
+      },
+      "shared": {
+        "quantity": {
+          "count": {
+            "infinity": "Unlimited",
+            "other": "%{count}"
+          }
+        },
+        "status": {
+          "enum": {
+            "approved": "Approved",
+            "completed": "Completed",
+            "expired": "Expired",
+            "none": "No approval",
+            "pending": "Pending"
+          }
+        }
+      },
+      "show": {
+        "approved_from": "Valid From",
+        "approved_quantity": "Approved",
+        "approved_until": "Valid Until",
+        "details": "Details",
+        "heading": "Product Approval",
+        "no_orders": "No Orders",
+        "orders": {
+          "date": "Date",
+          "order": "Order",
+          "product": "Product",
+          "quantity": "Quantity",
+          "status": "Status"
+        },
+        "orders_heading": "Orders",
+        "pending_quantity": "Pending Orders",
+        "product": "Product",
+        "product_category": "Product Category",
+        "purchased_quantity": "Already Purchased",
+        "remaining_quantity": "Remaining",
+        "status": "Status"
+      }
+    },
+    "profile": {
+      "heading": "Account Summary",
+      "sections": {
+        "account_credits": {
+          "count": {
+            "one": "1 account credit",
+            "other": "%{count} account credits"
+          },
+          "heading": "Account Credits",
+          "no_account_credits": "No Account Credits",
+          "total_balance": "Total balance",
+          "view_all": "View all"
+        },
+        "account_points": {
+          "current_balance": "Current balance",
+          "heading": "Account Points",
+          "no_account_points": "No Account Points",
+          "pending_balance": "Pending balance",
+          "view_all": "View all"
+        },
+        "billing": {
+          "edit": "Edit",
+          "heading": "Billing Address"
+        },
+        "contact": {
+          "company_name": "Company",
+          "edit": "Edit",
+          "email": "Email",
+          "heading": "Contact Details",
+          "name": "Name",
+          "phone": "Phone"
+        },
+        "credentials": {
+          "edit": "Edit",
+          "heading": "Login Details",
+          "username": "Username"
+        },
+        "orders": {
+          "count": {
+            "one": "1 order",
+            "other": "%{count} orders"
+          },
+          "heading": "Orders",
+          "most_recent": "Most recent order",
+          "no_orders": "No Orders",
+          "view_all": "View all"
+        },
+        "product_approvals": {
+          "count": {
+            "one": "1 product approval",
+            "other": "%{count} product approvals"
+          },
+          "heading": "Product Approvals",
+          "no_product_approvals": "No Product Approvals",
+          "view_all": "View all"
+        },
+        "shipping": {
+          "edit": "Edit",
+          "heading": "Shipping Address"
+        },
+        "subscriptions": {
+          "count": {
+            "one": "1 order",
+            "other": "%{count} active subscriptions"
+          },
+          "heading": "Subscriptions",
+          "next_due": "Next Due",
+          "no_subscriptions": "No Subscriptions",
+          "view_all": "View all"
+        }
+      }
+    },
+    "register": {
+      "form": {
+        "headings": {
+          "address": "Address",
+          "company_name": "Company details",
+          "contact": "Contact details",
+          "credentials": "Login details"
+        },
+        "labels": {
+          "company_name": "Company name",
+          "email": "Email",
+          "firstname": "First name",
+          "lastname": "Last name",
+          "password": "Password",
+          "phone": "Phone"
+        },
+        "submit": "Register"
+      },
+      "heading": "Register for an account",
+      "local_heading": "Or create an account"
+    },
+    "shared": {
+      "address_form": {
+        "address_lines": {
+          "count": {
+            "#1": "Street address",
+            "#2": "Suite",
+            "#3": "Apartment",
+            "#4": "Building Number",
+            "other": "line %{count}"
+          }
+        },
+        "autocomplete_placeholder": "Find Address",
+        "city": "City",
+        "country": "Country",
+        "state": "State",
+        "zip_code": "Zip code"
+      }
+    },
+    "shipping": {
+      "heading": "Shipping Address",
+      "path": "shipping",
+      "update": "Update your shipping address"
+    },
+    "subscriptions": {
+      "index": {
+        "heading": "Subscriptions",
+        "next_due": "Next Due",
+        "no_subscriptions": "No Subscriptions",
+        "order": "Order",
+        "price": "Price",
+        "product": "Product",
+        "renewal_date": "Renewal Date",
+        "status": "Status",
+        "view": "View"
+      },
+      "show": {
+        "amount": "Amount",
+        "cancel": "Cancel Subscription",
+        "cancel_abort": "No",
+        "cancel_confirm": "Yes",
+        "cancel_text": "This cannot be undone, are you sure?",
+        "no_payments": "No payments",
+        "order": "Order",
+        "paid_at": "Paid At",
+        "past_payments": "Past Payments",
+        "payment_details": "Payment Details",
+        "payment_source_expires_at": "Expires: %{expires_at}",
+        "payment_source_identifier": "Identifier: %{identifier}",
+        "status": "Status: %{subscription_status}",
+        "submit_update_button_label": "Update",
+        "update_payment_details": "Update Payment Details"
+      },
+      "status": {
+        "enum": {
+          "active": "Active",
+          "cancelled": "Cancelled",
+          "delinquent": "Delinquent",
+          "expired": "Expired",
+          "suspended": "Suspended"
+        }
+      }
+    }
+  },
+  "additional_payments": {
+    "not_required": "No further payments required."
+  },
+  "articles": {
+    "category": {
+      "no_articles": "There are no articles in this category"
+    },
+    "index": {
+      "heading": "Latest Articles",
+      "no_articles": "There are no articles"
+    },
+    "sidebar": {
+      "heading": "Categories"
+    }
+  },
+  "auth": {
+    "confirmations": {
+      "new": {
+        "button": "Resend",
+        "heading": "Resend confirmation instructions",
+        "username_placeholder": "Email or username"
+      },
+      "pending": {
+        "check_your_email": "Please check your email",
+        "heading": "Thank you",
+        "verify_your_email": "Please verify your email address to continue your registration process."
+      }
+    },
+    "invitations": {
+      "accept": {
+        "form": {
+          "confirm_password": "Confirm password",
+          "password": "Password",
+          "submit": "Accept invitation and set password"
+        },
+        "heading": "Accept Invitation"
+      },
+      "pending": {
+        "check_your_email": "Please check your email",
+        "heading": "Thank you",
+        "verify_your_email": "Please verify your email address to continue your registration process."
+      }
+    },
+    "login": {
+      "form": {
+        "password": "Password",
+        "submit": "Log in",
+        "username": "Username",
+        "via": "Or via one of these:"
+      },
+      "heading": "Sign in to your account",
+      "sso": {
+        "enum": {
+          "azure": "via Azure",
+          "entra_id": "via Entra",
+          "experience_cloud": "via our Portal",
+          "google": "via Google",
+          "singlekey_id": "via SingleKey ID"
+        },
+        "reset_password": "Reset",
+        "sign_in": "Sign in",
+        "sign_in_or_register": "Sign in or up"
+      }
+    },
+    "passwords": {
+      "forgot": {
+        "form": {
+          "email": "Email",
+          "submit": "Reset password"
+        },
+        "heading": "Reset password",
+        "unsupported": "Password reset is not supported for this account. Please contact support for assistance."
+      },
+      "reset": {
+        "form": {
+          "password": "New password",
+          "password_confirmation": "Confirm new password",
+          "submit": "Change my password"
+        },
+        "heading": "Change your password"
+      }
+    },
+    "register": {
+      "form": {}
+    },
+    "shared": {
+      "links": {
+        "didnt_receive_confirmation_instructions": "Didn't receive confirmation instructions?",
+        "forgot_you_password": "Forgot your password?",
+        "log_in": "Go to Log in"
+      }
+    }
+  },
+  "bookings": {
+    "booking_details": {
+      "location_info_more": "(more info)"
+    },
+    "timer": {
+      "plural": {
+        "did_expire": "Bookings expired",
+        "will_expire": "Bookings expire in"
+      },
+      "singular": {
+        "did_expire": "Booking expired",
+        "will_expire": "Booking expires in"
+      }
+    }
+  },
+  "bundles": {
+    "bundle": {
+      "includes": "Bundle includes:"
+    },
+    "form": {
+      "add_bundle_to_cart": "Add bundle to cart",
+      "bundle_includes": "Your bundle includes",
+      "loading_error": "Sorry, an error occurred loading the data",
+      "optional_addons": "Optional add-ons"
+    },
+    "product": {
+      "choose_from_variants": "Choose from %{count} variants",
+      "quantity_x": "%{quantity} x"
+    },
+    "single_choice": {
+      "add_to_bundle": "Add to bundle",
+      "bundled_product": {
+        "choose_from_options": "Choose from %{count} options"
+      },
+      "filters": {
+        "brand": "Brand",
+        "feature_type": "%{name} type",
+        "title": "Filters"
+      }
+    }
+  },
+  "cart": {
+    "buttons": {
+      "checkout": "Checkout",
+      "request_quote": "Request Quote"
+    },
+    "empty_msg": "Your cart is empty",
+    "header": "Shopping Cart",
+    "links": {
+      "clear_cart": "Empty Cart",
+      "continue_shopping": "Continue shopping"
+    }
+  },
+  "checkout": {
+    "accept_terms": {
+      "accept_terms_and_conditions": "Accept Terms & Conditions",
+      "header": "Accept Terms",
+      "next": "Next"
+    },
+    "account_credits": {
+      "apply": "Apply",
+      "enter_amount": "Enter total amount to apply",
+      "heading": "Account Credits",
+      "remove": "Remove",
+      "select_prompt": "Select an account credit..."
+    },
+    "assisted_by": {
+      "were_you_assisted_with_this_order": "Were you assisted with this order?"
+    },
+    "customer_information": {
+      "billing_address": {
+        "billing_address_same_as_shipping_address": "Same as Shipping Address",
+        "edit": "Edit",
+        "heading": "Billing Address"
+      },
+      "buttons": {
+        "finish_quote": "Submit Quote Request",
+        "next": "Continue"
+      },
+      "form": {
+        "company_name": "Company name (if applicable)",
+        "company_name_hint": "You can edit your comapny name in your account settings",
+        "email_address": "Email address",
+        "email_address_confirmation": "Confirm email address",
+        "email_address_explanation": "(for your order confirmation)",
+        "first_name": "First name",
+        "full_name": "Full name",
+        "full_name_hint": "You can edit your name in your account settings",
+        "last_name": "Last name",
+        "phone_number": "Phone number",
+        "phone_number_explanation": "(in case of delivery questions)"
+      },
+      "header": "Shipping address",
+      "new_recipient": {
+        "email_address": "Recipient's email",
+        "email_address_explanation": "(for our records)",
+        "full_name": "Recipient's full name",
+        "order_confirmation_notice": "Note: Your order confirmation will be sent to the email address associated with your account (%{account_email}) not the recipient email provided.",
+        "phone_number": "Recipient's Phone number",
+        "phone_number_explanation": "(in case of delivery questions)",
+        "ship_to_different_person": "Ship to a different person",
+        "ship_to_me": "Ship to me"
+      }
+    },
+    "customer_notes": {
+      "add_notes_about_your_order": "Add notes about your order",
+      "enter_notes": "Enter Notes"
+    },
+    "delivery": {
+      "header": "Delivery"
+    },
+    "delivery_options": {
+      "date_prompt": "Choose your preferred delivery date",
+      "day_prompt": "Choose your preferred day of the week for delivery",
+      "delivery_date": "Delivery Date",
+      "header": "Delivery Options",
+      "no_available_delivery_dates": "We will contact you to arrange your preferred delivery date.",
+      "no_available_delivery_days": "We will contact you to arrange your preferred delivery day.",
+      "timeslot_prompt": "Choose your preferred delivery time"
+    },
+    "gateways": {
+      "form": {
+        "card_name": "Name on card",
+        "card_number": "Card number",
+        "card_number_placeholder": "0000 0000 0000 0000",
+        "errors": {
+          "invalid": "Card is not valid"
+        },
+        "expiry": "Card Expiry",
+        "expiry_month": "Expiry month",
+        "expiry_month_placeholder": "MM",
+        "expiry_placeholder": "MM/YYYY",
+        "expiry_placeholder_short": "MM/YY",
+        "expiry_year": "Expiry year",
+        "expiry_year_placeholder": "YYYY",
+        "notices": {
+          "processing": "Processing"
+        },
+        "pay_now": "Pay Now",
+        "verification": "CVC",
+        "verification_placeholder": "123"
+      },
+      "free_form": {
+        "no_payment_required": "No payment required"
+      },
+      "pay_by_account_form": {
+        "account_on_credit_hold": "Account is on credit hold, please contact us for information.",
+        "enter_purchase_order_number": "Enter Purchase Order Number",
+        "pay_now": "Pay Now"
+      },
+      "pay_later_form": {
+        "pay_now": "Complete Purchase"
+      },
+      "pay_with_zip": "Pay with zip",
+      "points_form": {
+        "pay_now": "Purchase"
+      },
+      "store_credit_form": {
+        "paying_with_account_credit": "Paying with account credit",
+        "paying_with_voucher": "Paying by voucher",
+        "purchase": "Purchase"
+      },
+      "stripe_ach_form": {
+        "accept": "Accept",
+        "accept_terms": "By clicking accept, you authorize %{name} to debit the bank account specified above for any amount owed for charges arising from your use of %{name} services and/or purchase of products from %{name}, pursuant to %{name} website and terms, until this authorization is revoked. You may amend or cancel this authorization at any time by providing notice to %{name} with 30 (thirty) days notice.",
+        "account_holder_prompt": "Choose...",
+        "account_holder_type": "Account Holder Type",
+        "account_name": "Account Name",
+        "account_number": "Account Number",
+        "company": "Company",
+        "email": "Email",
+        "individual": "Individual",
+        "pay_now": "Authorize Now",
+        "routing_number": "Routing Number"
+      }
+    },
+    "payment": {
+      "error": "Sorry, an error occurred while trying to process the payment. Please try again later.",
+      "header": "Payment"
+    },
+    "points": {
+      "insufficient_balance": "You do not have enough points to complete this order",
+      "requires_login": "You must be logged in to pay with points"
+    },
+    "promo_codes": {
+      "apply": "Apply",
+      "heading": "Promo Codes"
+    },
+    "shipping": {
+      "click_and_collect": {
+        "available_from": "Available %{from}",
+        "lead_time": "Please allow %{lead_time} before collection",
+        "lead_time_immediate": "Available for collection now",
+        "out_of_stock": "Out of Stock"
+      },
+      "collection_time": {
+        "header": "When do you expect to collect your order?",
+        "placeholder": "Est. collection date"
+      },
+      "form": {
+        "click_and_collect": "Click & Collect",
+        "next": "Next",
+        "shipping": "Shipping"
+      },
+      "shipping_notes": {
+        "header": "Shipping Instructions",
+        "placeholder": "Enter Shipping Instructions",
+        "reveal_label": "Add Shipping Instructions"
+      },
+      "unavailable": {
+        "click_and_collect_prompt": "Click & Collect is not available for all items in your cart. Try removing some items.",
+        "click_and_collect_prompt_or_ship": "Click & Collect is not available for all items in your cart. Choose a shipping option or try removing some items.",
+        "no_shipping_available": "No shipping available, please contact us for shipping options.",
+        "shipping_option_prompt": "There are no shipping options available that cater for all items in your cart. Try removing some items.",
+        "shipping_option_prompt_or_click_and_collect": "There are no shipping options available that cater for all items in your cart. Try Click & Collect or remove some items.",
+        "we_can_deliver_via": "Options are:"
+      }
+    },
+    "title": "Checkout",
+    "vouchers": {
+      "apply": "Apply",
+      "enter_code": "Enter voucher code",
+      "heading": "Vouchers",
+      "remove": "Remove"
+    }
+  },
+  "deliveries": {
+    "days": {
+      "enum": {
+        "friday": "Friday",
+        "monday": "Monday",
+        "saturday": "Saturday",
+        "sunday": "Sunday",
+        "thursday": "Thursday",
+        "tuesday": "Tuesday",
+        "wednesday": "Wednesday"
+      }
+    }
+  },
+  "geolocation": {
+    "bar": {
+      "choose_region": "Choose your country or region",
+      "dismiss": "X",
+      "select": "Confirm"
+    }
+  },
+  "header": {
+    "dropdowns": {
+      "account": {
+        "account_credits": "Account credits",
+        "account_points": "Account points",
+        "heading": "Account",
+        "login": "Log in",
+        "logout": "Log out",
+        "orders": "Orders",
+        "product_approvals": "Product Approvals",
+        "profile": "Account",
+        "subscriptions": "Subscriptions"
+      },
+      "cart": {
+        "close": "Close",
+        "heading": "Cart"
+      }
+    },
+    "menu": {
+      "account": "Account",
+      "close": "Close"
+    },
+    "search": {
+      "placeholder": "Search for products or content"
+    },
+    "submenu": {
+      "back_to_main": "Back to main menu"
+    }
+  },
+  "line_items": {
+    "links": {
+      "edit_bundle": "Edit bundle",
+      "remove_item": "Remove"
+    },
+    "quantity": "Qty %{quantity}"
+  },
+  "location": {
+    "menu": {
+      "email": "Email",
+      "phone": "Call",
+      "website": "Website"
+    },
+    "navigation": {
+      "all_locations": "All %{name}",
+      "back_to_locations": "Back to %{name}"
+    }
+  },
+  "locations": {
+    "search": {
+      "forms": {
+        "common": {
+          "fields": {
+            "category": {
+              "label": "Category",
+              "prompt": "Category"
+            }
+          }
+        },
+        "exact": {
+          "buttons": {
+            "submit": "Find %{name}"
+          },
+          "fields": {
+            "country": {
+              "all_label": "All Countries",
+              "label": "Country"
+            },
+            "postcode": {
+              "placeholder": "Post code"
+            },
+            "state": {
+              "all_label": "All States",
+              "label": "State"
+            }
+          }
+        },
+        "near": {
+          "fields": {
+            "address": {
+              "errors": {
+                "invalid_address": "(Invalid address)"
+              },
+              "label": "Near",
+              "placeholder": "City, State, Postcode, Country",
+              "use_current_location": "Use current location"
+            },
+            "distance": {
+              "label": "Within",
+              "placeholder": "Distance"
+            }
+          }
+        }
+      },
+      "product": {
+        "not_found": "Unknown product"
+      },
+      "results": {
+        "abbr": {
+          "imperial": "miles",
+          "metric": "km"
+        },
+        "count": {
+          "one": "1 match",
+          "other": "%{count} matches",
+          "zero": "No matches"
+        },
+        "default": "Waiting to perform search",
+        "formatters": {
+          "distance_away": "%{distance} away",
+          "distance_with_unit": "%{number} %{unit}",
+          "within_distance_of_origin": "within %{number} %{unit} of %{origin}"
+        },
+        "menu": {
+          "directions": "Directions",
+          "view": "Show details",
+          "website": "Website"
+        },
+        "postcode": "in post code %{postcode}"
+      }
+    }
+  },
+  "order_summary": {
+    "account_credit": "Account Credit",
+    "delivery_options": {
+      "delivery_preference": "Delivery: %{preference}"
+    },
+    "cart": {
+      "total_payable": "Payment due now"
+    },
+    "currency_and_points_connector": "and",
+    "includes_fixed_subscriptions": "Total includes %{amount} of fixed-term subscriptions",
+    "includes_tax": "Includes %{tax_label}",
+    "order": {
+      "pay_balance": "Pay Balance of %{amount}",
+      "total_payable": "Balance owing",
+      "total_subscriptions_remaining": "Total remaining subscriptions"
+    },
+    "paid": "Paid",
+    "tax_label": "Tax",
+    "total": "Total amount",
+    "voucher": "Voucher"
+  },
+  "pagination": {
+    "first": "First",
+    "last": "Last",
+    "next": "Next",
+    "paged_title": "%{title}, page %{page}",
+    "previous": "Previous"
+  },
+  "pricing": {
+    "alternative_currency_pricing": "(or %{price} when paying with cash)",
+    "alternative_points_pricing": "(or %{points})",
+    "currency_and_points": "%{currency} and %{points}",
+    "currency_or_points": "%{currency} or %{points}",
+    "currency_or_points_connector": "or",
+    "deposit": "Deposit",
+    "earn_points": "earn up to %{points}",
+    "free": "FREE",
+    "hide_price_text": "POA",
+    "original_price": "Was",
+    "points": {
+      "earn": {
+        "earn_label": "earn",
+        "earn_points": "Earn %{points}",
+        "every_timespan": "every %{timespan}",
+        "variable_points_label": "from"
+      },
+      "purchase": {
+        "variable": "From"
+      }
+    },
+    "subscription_timespan": "Every %{timespan}",
+    "subscription_total": "%{total_amount} over %{full_timespan}",
+    "total_due": "Total due",
+    "use_points": "Use points",
+    "variable": "From %{price}"
+  },
+  "privacy": {
+    "accept_all": "Accept All",
+    "manage_settings": "Manage Cookies",
+    "modal": {
+      "clear": "Clear Saved Settings",
+      "disable_all_label": "Disable all",
+      "disabled_label": "Disabled",
+      "enable_all_label": "Enable all",
+      "enabled_label": "Enabled",
+      "save": "Save Settings",
+      "save_accept_all": "Enable All & Save",
+      "save_reject_all": "Disable All & Save"
+    },
+    "reject_all": "Reject All"
+  },
+  "products": {
+    "add_to_cart": {
+      "quantity_label": "Qty"
+    },
+    "approvals": {
+      "restricted": "This item is restricted and requires pre-approval",
+      "status": {
+        "approved": {
+          "count": {
+            "infinity": "You can purchase an unlimited amount of this item",
+            "one": "You are approved to purchase only 1 of this item",
+            "other": "You are approved to purchase a maximum of %{count}",
+            "zero": "You have no more approvals for this item"
+          }
+        },
+        "completed": "You have no more approvals for this item",
+        "expired": "Your previous approval has expired",
+        "none": "You do not have approval to purchase this item",
+        "pending_html": "Your approval starts on %{date}"
+      }
+    },
+    "availability": {
+      "address_label": "Address",
+      "available": "%{count} Available",
+      "closest_with_availability": "Closest dates with availability:",
+      "no_availabilities": "No availabilities in the selected date range",
+      "sold_out": "Sold out"
+    },
+    "booking": {
+      "all_locations": "All locations",
+      "dates": "Dates",
+      "location": "Location"
+    },
+    "compare": {
+      "add_to_compare": "Add to compare",
+      "banner": {
+        "compare_products": "Compare products",
+        "unselect_all": "Unselect all",
+        "you_must_select_at_least_two_products_to_compare": "You must select at least 2 products to compare"
+      }
+    },
+    "in_your_cart": {
+      "header": "In your cart"
+    },
+    "index": {
+      "all_products": "All products"
+    },
+    "inventory": {
+      "available": "In stock at",
+      "want_to_click_and_collect": "Pickup available"
+    },
+    "pickup": {
+      "available": "Pickup available",
+      "only": "Pickup only"
+    },
+    "pricing": {
+      "deposit": "Deposit %{amount}",
+      "free": "FREE",
+      "free_in_bundle": "Free in bundle",
+      "from": "From %{price}",
+      "not_purchasable": "Not purchasable",
+      "original_price": "Was %{amount}",
+      "subscription_price": "%{amount}",
+      "subscription_term": "Every %{timespan}",
+      "subscription_total_price": "%{total_amount} over %{full_timespan_months}",
+      "timespan_day": {
+        "count": {
+          "one": "day",
+          "other": "%{count} days"
+        }
+      },
+      "timespan_month": {
+        "count": {
+          "one": "month",
+          "other": "%{count} months"
+        }
+      },
+      "timespan_week": {
+        "count": {
+          "#2": "fortnight",
+          "one": "week",
+          "other": "%{count} weeks"
+        }
+      },
+      "timespan_year": {
+        "count": {
+          "one": "year",
+          "other": "%{count} years"
+        }
+      },
+      "total_due": "Total due %{amount}"
+    },
+    "related_products": {
+      "title": "Related Products"
+    },
+    "show": {
+      "discontinued": "(Discontinued)",
+      "excluding_tax": "Price excludes tax",
+      "loading_bundles": "Loading...",
+      "select_option": "Please choose the option you would like and add it to your cart"
+    },
+    "variant_options": {
+      "clear_choices": "Clear Choices",
+      "no_stock": "No stock available",
+      "reset_choices": "Reset",
+      "select": "Select %{variant_type}"
+    }
+  },
+  "salesforce_payments": {
+    "errors": {
+      "already_paid": "The order has a payment listed that has not been finalised yet",
+      "continue_anyway": "Continue anyway",
+      "fix_data_in_sf": "Please select another payment provider, or fix the data in Salesforce.",
+      "last_sync": "The Order was last updated %{timestamp} ago. If your recently updated the order, it might not have synced yet.",
+      "unable_to_proceed": "Unable to Proceed with Payment"
+    }
+  },
+  "sc": {
+    "account_credit": {
+      "apply": {
+        "errors": {
+          "expired": "That Account Credit has expired",
+          "fail": "The account credit could not be applied to your order. Please contact support for assistance.",
+          "insufficient_balance": "The maximum amount you can apply with the selected account credit is %{amount}",
+          "negative_amount": "The account credit amount applied can't be less than zero",
+          "not_found": "Please select an account credit",
+          "not_permitted": "You are not allowed to use account credit for this account"
+        },
+        "notices": {
+          "excludes_subscriptions": "Account Credit has been applied. Please note: You can't use account credit to pay for subscriptions.",
+          "removed": "The account credit has been removed from this order",
+          "success": "Account Credit has been applied."
+        }
+      },
+      "descriptor": "Account Credit",
+      "remove": {
+        "errors": {
+          "fail": "The account credit could not be removed from your cart. Please contact support for assistance."
+        },
+        "notices": {
+          "success": "Account Credit removed"
+        }
+      }
+    },
+    "account_points": {
+      "descriptor": "Account Points"
+    },
+    "accounts": {
+      "confirmations": {
+        "notices": {
+          "already_signed_in": "You are already signed in"
+        }
+      },
+      "invitations": {
+        "notices": {
+          "already_signed_in": "You are already signed in"
+        }
+      },
+      "orders": {
+        "bookings": {
+          "attendees": {
+            "create": {
+              "errors": {
+                "fail": "There was an error creating the attendee"
+              },
+              "notices": {
+                "success": "Attendee was added"
+              }
+            },
+            "update": {
+              "errors": {
+                "fail": "There was an error updating the attendee's details"
+              },
+              "notices": {
+                "success": "Attendee details were updated"
+              }
+            },
+            "validation": {
+              "email_format": "Email address is invalid",
+              "email_or_phone_required": "Either an email or phone number must be provided"
+            }
+          }
+        }
+      },
+      "profile": {
+        "update": {
+          "errors": {
+            "fail": "There was an unexpected error updating your details. Please contact support for assistance.",
+            "invalid": "There was an error updating your details"
+          },
+          "notices": {
+            "success": "Your details were successfully updated"
+          }
+        }
+      },
+      "register": {
+        "errors": {
+          "duplicate_contact": "This contact already exists. Please login or reset password.",
+          "fail": "There was a problem processing your registration, please contact support.",
+          "invalid": "There was a problem creating your account"
+        },
+        "notices": {
+          "already_signed_in": "You are already signed in",
+          "login_exists": "You already have an account. Please sign in or reset password."
+        }
+      },
+      "subscriptions": {
+        "cancel": {
+          "errors": {
+            "not_allowed": "That subscription cannot be cancelled"
+          },
+          "notices": {
+            "success": "Subscription has been cancelled"
+          }
+        },
+        "update_payment_details": {
+          "errors": {
+            "fail": "Updating payment details failed"
+          },
+          "notices": {
+            "success": "Payment details updated"
+          }
+        }
+      }
+    },
+    "article": {
+      "errors": {
+        "not_found": "That article was not found.",
+        "requires_membership": "You do not have the required membership level to access this article. Requires: %{membership_required}."
+      }
+    },
+    "article_category": {
+      "errors": {
+        "not_found": "That article category was not found."
+      }
+    },
+    "auth": {
+      "confirmations": {
+        "confirmed": "Your email address has been successfully confirmed.",
+        "send_instructions": "You will receive an email with instructions for how to confirm your email address in a few minutes.",
+        "send_paranoid_instructions": "If your email address exists in our database, you will receive an email with instructions for how to confirm your email address in a few minutes."
+      },
+      "failure": {
+        "already_authenticated": "You are already signed in.",
+        "inactive": "Your account is not activated yet.",
+        "invalid": "Invalid %{authentication_keys} or password.",
+        "invited": "You have a pending invitation, accept it to finish creating your account.",
+        "last_attempt": "You have one more attempt before your account is locked.",
+        "locked": "Your account is locked.",
+        "not_found_in_database": "Invalid %{authentication_keys} or password.",
+        "timeout": "Your session expired. Please sign in again to continue.",
+        "unauthenticated": "You need to sign in or sign up before continuing.",
+        "unconfirmed": "You have to confirm your email address before continuing."
+      },
+      "invitations": {
+        "invitation_removed": "Your invitation was removed.",
+        "invitation_token_invalid": "The invitation token provided is not valid!",
+        "no_invitations_remaining": "No invitations remaining",
+        "notices": {
+          "success": "Welcome! Your account is all set up."
+        },
+        "send_instructions": "An invitation email has been sent to %{email}.",
+        "updated": "Your password was set successfully. You are now signed in.",
+        "updated_not_active": "Your password was set successfully."
+      },
+      "passwords": {
+        "fail": "There was a problem processing your registration, please contact support.",
+        "invalid_token": "The password reset URL you used is invalid - it might have expired. Please restart the Reset Password process.",
+        "no_token": "You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided.",
+        "send_instructions": "You will receive an email with instructions on how to reset your password in a few minutes.",
+        "send_paranoid_instructions": "If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes.",
+        "updated": "Your password has been changed successfully. You are now signed in.",
+        "updated_not_active": "Your password has been changed successfully."
+      },
+      "registrations": {
+        "destroyed": "Bye! Your account has been successfully cancelled. We hope to see you again soon.",
+        "signed_up": "Welcome! You have signed up successfully.",
+        "signed_up_but_inactive": "You have signed up successfully. However, we could not sign you in because your account is not yet activated.",
+        "signed_up_but_locked": "You have signed up successfully. However, we could not sign you in because your account is locked.",
+        "signed_up_but_unconfirmed": "A message with a confirmation link has been sent to your email address. Please follow the link to activate your account.",
+        "update_needs_confirmation": "You updated your account successfully, but we need to verify your new email address. Please check your email and follow the confirmation link to confirm your new email address.",
+        "updated": "Your account has been updated successfully.",
+        "updated_but_not_signed_in": "Your account has been updated successfully, but since your password was changed, you need to sign in again."
+      },
+      "sessions": {
+        "already_signed_out": "",
+        "signed_in": "",
+        "signed_out": "Signed out successfully."
+      },
+      "sso": {
+        "singlekey_id": {
+          "fail": "Could not authenticate you from SingleKey ID because: %{reason}",
+          "success": "Successfully authenticated from your SingleKey ID account.",
+          "support": "There was a problem processing your registration, please contact support."
+        },
+        "azure": {
+          "fail": "Could not authenticate you from Azure because: %{reason}",
+          "success": "Successfully authenticated from your Azure account.",
+          "support": "There was a problem processing your registration, please contact support."
+        },
+        "entra_id": {
+          "fail": "Could not authenticate you from Entra because: %{reason}",
+          "success": "Successfully authenticated from your Entra account.",
+          "support": "There was a problem processing your registration, please contact support."
+        },
+        "error": "Could not authenticate, please contact support.",
+        "experience_cloud": {
+          "fail": "Could not authenticate you from the portal because: %{reason}",
+          "success": "Successfully authenticated from your account.",
+          "support": "There was a problem processing your registration, please contact support."
+        },
+        "google": {
+          "fail": "Could not authenticate you from Google because: %{reason}",
+          "success": "Successfully authenticated from your Google account.",
+          "support": "There was a problem processing your registration, please contact support."
+        },
+        "incorrect_provider": "Could not authenticate, account is already linked to a different provider."
+      }
+    },
+    "bundles": {
+      "add": {
+        "errors": {
+          "could_not_add_product": "Could not add %{name} to cart: %{message}"
+        },
+        "notices": {
+          "success": "Bundle added to your cart!"
+        }
+      }
+    },
+    "cart": {
+      "add": {
+        "errors": {
+          "out_of_stock": "%{name} is out of stock",
+          "product_is_restricted": "Prior approval is required before you can purchase %{name}"
+        }
+      },
+      "update": {
+        "errors": {
+          "booking_hold_expired": "The reservation period has expired for some items in your cart: %{names}.",
+          "booking_started": "Some items in your cart have passed the starting time and can no longer be booked: %{names}.",
+          "insufficient_product_stock": "The following items do not have enough stock and have been removed from your cart: %{names}.",
+          "insufficient_slots_available": "Some items in your cart had a higher quantity selected than is now available. The quantity has been reduced for these items: %{names}.",
+          "limited_product_stock": "Due to stock levels the quantity has been updated for the following items: %{names}.",
+          "no_slots_available": "Some items in your cart are no longer available: %{names}.",
+          "restricted_products": "Quantity has been reduced on the following restricted items: %{names}."
+        },
+        "notices": {
+          "success": "Cart Updated"
+        }
+      }
+    },
+    "checkout": {
+      "accounts": {
+        "create": {
+          "errors": {
+            "fail": "There was a problem saving your password. Please contact support.",
+            "invalid": "There was a problem saving your password"
+          },
+          "notices": {
+            "login_exists": "You already have an account. Please sign in or reset password.",
+            "you_are_now_signed_in": "Thank you, you are now signed in",
+            "you_can_now_sign_in": "Thank you, you can now sign in"
+          }
+        }
+      },
+      "captcha": {
+        "errors": {
+          "fail": "We have detected unusual activity, please try again or contact us for support."
+        }
+      },
+      "click_and_collect": {
+        "descriptor": "Click and Collect"
+      },
+      "customer_information": {
+        "errors": {
+          "does_not_match": "does not match",
+          "first_and_last_name_required": "requires first and last names",
+          "invalid_details": "Invalid details: %{details}",
+          "unable_to_quote": "Unable to process quote request. Please try again later."
+        }
+      },
+      "finalize": {
+        "errors": {
+          "invalid": "Some items in your cart are no longer valid. No payment has been taken."
+        }
+      },
+      "invalid_cart": "Checkout cannot continue because your cart is invalid.",
+      "not_available": "Checkout is not available at this time.",
+      "orders": {
+        "show": {
+          "notices": {
+            "thank_you": "Thank you for your order."
+          }
+        }
+      },
+      "payment": {
+        "create": {
+          "errors": {
+            "address_invalid": "Payment failed. Please check the postcode and address are correct for that card.",
+            "card_declined": "Payment failed. That card was declined.",
+            "card_expired": "Payment failed. That card has expired, or the expiration date is incorrect.",
+            "card_invalid": "Payment failed. That card is not valid, please check all fields are correct.",
+            "card_not_supported": "Payment failed. That card type is not supported.",
+            "general": "Sorry, an error occurred while trying to process the payment. Please try again later.",
+            "license_error": "Live payments disabled for Sandbox StoreConnect licenses",
+            "no_cart_found": "We could not find your cart, perhaps it expired. No payment has been taken.",
+            "points": {
+              "insufficient_balance": "You do not have enough points to complete this order.",
+              "not_permitted": "You are not allowed to use the account points for this account"
+            }
+          }
+        },
+        "finalize_order": {
+          "notices": {
+            "order_processing_text": "Order is still processing"
+          }
+        },
+        "shared": {
+          "errors": {
+            "api_auth_error": "Error authorizing with API",
+            "during_checkout": "Something went wrong, please try again later!",
+            "invalid_provider": "Unsupported Payment Method",
+            "updating_subscription": "We were unable to update your payment details!",
+            "verifying_payment": "We were unable to verify your payment!"
+          }
+        }
+      },
+      "shipping": {
+        "errors": {
+          "could_not_be_calculated": "Shipping could not be calculated at this time.",
+          "delivery_option_not_specified": "Delivery options for some items have not been specified. Please select a delivery option for all items.",
+          "no_longer_available": "The selected shipping service is no longer available for the selected shipping provider, please select another",
+          "shipping_method_not_selected": "Please select a shipping method.",
+          "some_items_not_shippable": "Some of the items can not be shipped via the selected shipping method.",
+          "tax_provider_offline": "Tax provider offline. Please try again in a few minutes."
+        }
+      },
+      "terms_and_conditions": {
+        "errors": {
+          "must_accept": "Please accept the terms to continue"
+        }
+      }
+    },
+    "errors": {
+      "buy_button": {
+        "add": {
+          "fail": "We were unable to add some or all of those items to your cart"
+        }
+      },
+      "not_authenticated": "You must be signed in to access this page.",
+      "not_authorized": "You are not authorized to access this page.",
+      "not_found": "Not found",
+      "requires_membership": "You do not have the required membership level to access this item. Requires: %{membership_required}.",
+      "saml_login": {
+        "authentication_failed": "Authentication Failed. Please ensure you have the required permissions to login as this user.",
+        "user_not_found": "Could not find any users matching: %{identifier}"
+      },
+      "unexpected": "Sorry, an unexpected error occurred. Please try again."
+    },
+    "locale": {
+      "countries": {
+        "AD": "Andorra",
+        "AE": "United Arab Emirates (the)",
+        "AF": "Afghanistan",
+        "AG": "Antigua and Barbuda",
+        "AI": "Anguilla",
+        "AL": "Albania",
+        "AM": "Armenia",
+        "AO": "Angola",
+        "AQ": "Antarctica",
+        "AR": "Argentina",
+        "AS": "American Samoa",
+        "AT": "Austria",
+        "AU": "Australia",
+        "AW": "Aruba",
+        "AX": "Åland Islands",
+        "AZ": "Azerbaijan",
+        "BA": "Bosnia and Herzegovina",
+        "BB": "Barbados",
+        "BD": "Bangladesh",
+        "BE": "Belgium",
+        "BF": "Burkina Faso",
+        "BG": "Bulgaria",
+        "BH": "Bahrain",
+        "BI": "Burundi",
+        "BJ": "Benin",
+        "BL": "Saint Barthélemy",
+        "BM": "Bermuda",
+        "BN": "Brunei Darussalam",
+        "BO": "Bolivia (Plurinational State of)",
+        "BQ": "Bonaire, Sint Eustatius and Saba",
+        "BR": "Brazil",
+        "BS": "Bahamas (the)",
+        "BT": "Bhutan",
+        "BV": "Bouvet Island",
+        "BW": "Botswana",
+        "BY": "Belarus",
+        "BZ": "Belize",
+        "CA": "Canada",
+        "CC": "Cocos (Keeling) Islands (the)",
+        "CD": "Congo (the Democratic Republic of the)",
+        "CF": "Central African Republic (the)",
+        "CG": "Congo (the)",
+        "CH": "Switzerland",
+        "CI": "Côte d'Ivoire",
+        "CK": "Cook Islands (the)",
+        "CL": "Chile",
+        "CM": "Cameroon",
+        "CN": "China",
+        "CO": "Colombia",
+        "CR": "Costa Rica",
+        "CU": "Cuba",
+        "CV": "Cabo Verde",
+        "CW": "Curaçao",
+        "CX": "Christmas Island",
+        "CY": "Cyprus",
+        "CZ": "Czechia",
+        "DE": "Germany",
+        "DJ": "Djibouti",
+        "DK": "Denmark",
+        "DM": "Dominica",
+        "DO": "Dominican Republic (the)",
+        "DZ": "Algeria",
+        "EC": "Ecuador",
+        "EE": "Estonia",
+        "EG": "Egypt",
+        "EH": "Western Sahara*",
+        "ER": "Eritrea",
+        "ES": "Spain",
+        "ET": "Ethiopia",
+        "FI": "Finland",
+        "FJ": "Fiji",
+        "FK": "Falkland Islands (the) [Malvinas]",
+        "FM": "Micronesia (Federated States of)",
+        "FO": "Faroe Islands (the)",
+        "FR": "France",
+        "GA": "Gabon",
+        "GB": "United Kingdom of Great Britain and Northern Ireland (the)",
+        "GD": "Grenada",
+        "GE": "Georgia",
+        "GF": "French Guiana",
+        "GG": "Guernsey",
+        "GH": "Ghana",
+        "GI": "Gibraltar",
+        "GL": "Greenland",
+        "GM": "Gambia (the)",
+        "GN": "Guinea",
+        "GP": "Guadeloupe",
+        "GQ": "Equatorial Guinea",
+        "GR": "Greece",
+        "GS": "South Georgia and the South Sandwich Islands",
+        "GT": "Guatemala",
+        "GU": "Guam",
+        "GW": "Guinea-Bissau",
+        "GY": "Guyana",
+        "HK": "Hong Kong",
+        "HM": "Heard Island and McDonald Islands",
+        "HN": "Honduras",
+        "HR": "Croatia",
+        "HT": "Haiti",
+        "HU": "Hungary",
+        "ID": "Indonesia",
+        "IE": "Ireland",
+        "IL": "Israel",
+        "IM": "Isle of Man",
+        "IN": "India",
+        "IO": "British Indian Ocean Territory (the)",
+        "IQ": "Iraq",
+        "IR": "Iran (Islamic Republic of)",
+        "IS": "Iceland",
+        "IT": "Italy",
+        "JE": "Jersey",
+        "JM": "Jamaica",
+        "JO": "Jordan",
+        "JP": "Japan",
+        "KE": "Kenya",
+        "KG": "Kyrgyzstan",
+        "KH": "Cambodia",
+        "KI": "Kiribati",
+        "KM": "Comoros (the)",
+        "KN": "Saint Kitts and Nevis",
+        "KP": "Korea (the Democratic People's Republic of)",
+        "KR": "Korea (the Republic of)",
+        "KW": "Kuwait",
+        "KY": "Cayman Islands (the)",
+        "KZ": "Kazakhstan",
+        "LA": "Lao People's Democratic Republic (the)",
+        "LB": "Lebanon",
+        "LC": "Saint Lucia",
+        "LI": "Liechtenstein",
+        "LK": "Sri Lanka",
+        "LR": "Liberia",
+        "LS": "Lesotho",
+        "LT": "Lithuania",
+        "LU": "Luxembourg",
+        "LV": "Latvia",
+        "LY": "Libya",
+        "MA": "Morocco",
+        "MC": "Monaco",
+        "MD": "Moldova (the Republic of)",
+        "ME": "Montenegro",
+        "MF": "Saint Martin (French part)",
+        "MG": "Madagascar",
+        "MH": "Marshall Islands (the)",
+        "MK": "North Macedonia",
+        "ML": "Mali",
+        "MM": "Myanmar",
+        "MN": "Mongolia",
+        "MO": "Macao",
+        "MP": "Northern Mariana Islands (the)",
+        "MQ": "Martinique",
+        "MR": "Mauritania",
+        "MS": "Montserrat",
+        "MT": "Malta",
+        "MU": "Mauritius",
+        "MV": "Maldives",
+        "MW": "Malawi",
+        "MX": "Mexico",
+        "MY": "Malaysia",
+        "MZ": "Mozambique",
+        "NA": "Namibia",
+        "NC": "New Caledonia",
+        "NE": "Niger (the)",
+        "NF": "Norfolk Island",
+        "NG": "Nigeria",
+        "NI": "Nicaragua",
+        "NL": "Netherlands (the)",
+        "NO": "Norway",
+        "NP": "Nepal",
+        "NR": "Nauru",
+        "NU": "Niue",
+        "NZ": "New Zealand",
+        "OM": "Oman",
+        "PA": "Panama",
+        "PE": "Peru",
+        "PF": "French Polynesia",
+        "PG": "Papua New Guinea",
+        "PH": "Philippines (the)",
+        "PK": "Pakistan",
+        "PL": "Poland",
+        "PM": "Saint Pierre and Miquelon",
+        "PN": "Pitcairn",
+        "PR": "Puerto Rico",
+        "PS": "Palestine, State of",
+        "PT": "Portugal",
+        "PW": "Palau",
+        "PY": "Paraguay",
+        "QA": "Qatar",
+        "RE": "Réunion",
+        "RO": "Romania",
+        "RS": "Serbia",
+        "RU": "Russian Federation (the)",
+        "RW": "Rwanda",
+        "SA": "Saudi Arabia",
+        "SB": "Solomon Islands",
+        "SC": "Seychelles",
+        "SD": "Sudan (the)",
+        "SE": "Sweden",
+        "SG": "Singapore",
+        "SH": "Saint Helena, Ascension and Tristan da Cunha",
+        "SI": "Slovenia",
+        "SJ": "Svalbard and Jan Mayen",
+        "SK": "Slovakia",
+        "SL": "Sierra Leone",
+        "SM": "San Marino",
+        "SN": "Senegal",
+        "SO": "Somalia",
+        "SR": "Suriname",
+        "SS": "South Sudan",
+        "ST": "Sao Tome and Principe",
+        "SV": "El Salvador",
+        "SX": "Sint Maarten (Dutch part)",
+        "SY": "Syrian Arab Republic (the)",
+        "SZ": "Eswatini",
+        "TC": "Turks and Caicos Islands (the)",
+        "TD": "Chad",
+        "TF": "French Southern Territories (the)",
+        "TG": "Togo",
+        "TH": "Thailand",
+        "TJ": "Tajikistan",
+        "TK": "Tokelau",
+        "TL": "Timor-Leste",
+        "TM": "Turkmenistan",
+        "TN": "Tunisia",
+        "TO": "Tonga",
+        "TR": "Turkey",
+        "TT": "Trinidad and Tobago",
+        "TV": "Tuvalu",
+        "TW": "Taiwan (Province of China)",
+        "TZ": "Tanzania, the United Republic of",
+        "UA": "Ukraine",
+        "UG": "Uganda",
+        "UM": "United States Minor Outlying Islands (the)",
+        "US": "United States of America (the)",
+        "UY": "Uruguay",
+        "UZ": "Uzbekistan",
+        "VA": "Holy See (the)",
+        "VC": "Saint Vincent and the Grenadines",
+        "VE": "Venezuela (Bolivarian Republic of)",
+        "VG": "Virgin Islands (British)",
+        "VI": "Virgin Islands (U.S.)",
+        "VN": "Viet Nam",
+        "VU": "Vanuatu",
+        "WF": "Wallis and Futuna",
+        "WS": "Samoa",
+        "YE": "Yemen",
+        "YT": "Mayotte",
+        "ZA": "South Africa",
+        "ZM": "Zambia",
+        "ZW": "Zimbabwe"
+      },
+      "database": {
+        "fields": {
+          "account": {
+            "billing_address_lines": "Billing Address Lines",
+            "billingcity": "Billing City",
+            "billingcountry": "Billing Country",
+            "billingpostalcode": "Billing Postal Code",
+            "billingstate": "Billing State",
+            "billingstreet": "Billing Street",
+            "shipping_address_lines": "Shipping Address Lines",
+            "shippingcity": "Shipping City",
+            "shippingcountry": "Shipping Country",
+            "shippingpostalcode": "Shipping Postal Code",
+            "shippingstate": "Shipping State",
+            "shippingstreet": "Shipping Street"
+          },
+          "contact": {
+            "email": "Email",
+            "firstname": "First name",
+            "full_name": "Full name",
+            "lastname": "Last name",
+            "phone": "Phone",
+            "username": "Username"
+          },
+          "login": {
+            "password": "Password",
+            "password_confirmation": "Password confirmation"
+          }
+        },
+        "objects": {
+          "account": "Account",
+          "contact": "Contact",
+          "login": "Login"
+        }
+      },
+      "date": {
+        "abbr_day_names": [
+          "Sun",
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat"
+        ],
+        "abbr_month_names": [
+          null,
+          "Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "May",
+          "Jun",
+          "Jul",
+          "Aug",
+          "Sep",
+          "Oct",
+          "Nov",
+          "Dec"
+        ],
+        "day_names": [
+          "Sunday",
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "formats": {
+          "default": "%Y-%m-%d",
+          "long": "%B %d, %Y",
+          "short": "%b %d"
+        },
+        "month_names": [
+          null,
+          "January",
+          "February",
+          "March",
+          "April",
+          "May",
+          "June",
+          "July",
+          "August",
+          "September",
+          "October",
+          "November",
+          "December"
+        ],
+        "order": [
+          "year",
+          "month",
+          "day"
+        ]
+      },
+      "datetime": {
+        "distance_in_words": {
+          "about_x_hours": {
+            "one": "about 1 hour",
+            "other": "about %{count} hours"
+          },
+          "about_x_months": {
+            "one": "about 1 month",
+            "other": "about %{count} months"
+          },
+          "about_x_years": {
+            "one": "about 1 year",
+            "other": "about %{count} years"
+          },
+          "almost_x_years": {
+            "one": "almost 1 year",
+            "other": "almost %{count} years"
+          },
+          "half_a_minute": "half a minute",
+          "less_than_x_minutes": {
+            "one": "less than a minute",
+            "other": "less than %{count} minutes"
+          },
+          "less_than_x_seconds": {
+            "one": "less than 1 second",
+            "other": "less than %{count} seconds"
+          },
+          "over_x_years": {
+            "one": "over 1 year",
+            "other": "over %{count} years"
+          },
+          "x_days": {
+            "one": "1 day",
+            "other": "%{count} days"
+          },
+          "x_hours": {
+            "one": "1 hour",
+            "other": "%{count} hours"
+          },
+          "x_minutes": {
+            "one": "1 minute",
+            "other": "%{count} minutes"
+          },
+          "x_months": {
+            "one": "1 month",
+            "other": "%{count} months"
+          },
+          "x_seconds": {
+            "one": "1 second",
+            "other": "%{count} seconds"
+          },
+          "x_weeks": {
+            "one": "1 week",
+            "other": "%{count} weeks"
+          },
+          "x_years": {
+            "one": "1 year",
+            "other": "%{count} years"
+          }
+        },
+        "prompts": {
+          "day": "Day",
+          "hour": "Hour",
+          "minute": "Minute",
+          "month": "Month",
+          "second": "Second",
+          "year": "Year"
+        }
+      },
+      "errors": {
+        "format": "%{attribute} %{message}",
+        "messages": {
+          "accepted": "must be accepted",
+          "already_confirmed": "was already confirmed, please try signing in",
+          "blank": "can't be blank",
+          "confirmation": "doesn't match %{attribute}",
+          "confirmation_period_expired": "needs to be confirmed within %{period}, please request a new one",
+          "empty": "can't be empty",
+          "equal_to": "must be equal to %{count}",
+          "even": "must be even",
+          "exclusion": "is reserved",
+          "expired": "has expired, please request a new one",
+          "greater_than": "must be greater than %{count}",
+          "greater_than_or_equal_to": "must be greater than or equal to %{count}",
+          "immutable": "can't be changed",
+          "inclusion": "is not included in the list",
+          "invalid": "is invalid",
+          "less_than": "must be less than %{count}",
+          "less_than_or_equal_to": "must be less than or equal to %{count}",
+          "model_invalid": "Validation failed: %{errors}",
+          "not_a_number": "is not a number",
+          "not_an_integer": "must be an integer",
+          "not_found": "not found",
+          "not_locked": "was not locked",
+          "not_saved": {
+            "one": "1 error prohibited this %{resource} from being saved:",
+            "other": "%{count} errors prohibited this %{resource} from being saved:"
+          },
+          "odd": "must be odd",
+          "other_than": "must be other than %{count}",
+          "present": "must be blank",
+          "record_invalid": "Validation failed: %{errors}",
+          "required": "must exist",
+          "restrict_dependent_destroy": {
+            "has_many": "Cannot delete record because dependent %{record} exist",
+            "has_one": "Cannot delete record because a dependent %{record} exists"
+          },
+          "taken": "has already been taken",
+          "too_long": {
+            "one": "is too long (maximum is 1 character)",
+            "other": "is too long (maximum is %{count} characters)"
+          },
+          "too_short": {
+            "one": "is too short (minimum is 1 character)",
+            "other": "is too short (minimum is %{count} characters)"
+          },
+          "unique": "must be unique",
+          "wrong_length": {
+            "one": "is the wrong length (should be 1 character)",
+            "other": "is the wrong length (should be %{count} characters)"
+          }
+        }
+      },
+      "number": {
+        "currency": {
+          "format": {
+            "delimiter": ",",
+            "format": "%u%n",
+            "precision": 2,
+            "separator": ".",
+            "significant": false,
+            "strip_insignificant_zeros": false,
+            "unit": "$"
+          }
+        },
+        "format": {
+          "delimiter": ",",
+          "precision": 3,
+          "separator": ".",
+          "significant": false,
+          "strip_insignificant_zeros": false
+        },
+        "human": {
+          "decimal_units": {
+            "format": "%n %u",
+            "units": {
+              "billion": "Billion",
+              "million": "Million",
+              "quadrillion": "Quadrillion",
+              "thousand": "Thousand",
+              "trillion": "Trillion",
+              "unit": ""
+            }
+          },
+          "format": {
+            "delimiter": "",
+            "precision": 3,
+            "significant": true,
+            "strip_insignificant_zeros": true
+          },
+          "storage_units": {
+            "format": "%n %u",
+            "units": {
+              "byte": {
+                "one": "Byte",
+                "other": "Bytes"
+              },
+              "eb": "EB",
+              "gb": "GB",
+              "kb": "KB",
+              "mb": "MB",
+              "pb": "PB",
+              "tb": "TB"
+            }
+          }
+        },
+        "percentage": {
+          "format": {
+            "delimiter": "",
+            "format": "%n%"
+          }
+        },
+        "points": {
+          "format": {
+            "delimiter": ",",
+            "format": "%n pts"
+          }
+        },
+        "precision": {
+          "format": {
+            "delimiter": ""
+          }
+        }
+      },
+      "support": {
+        "array": {
+          "last_word_connector": ", and ",
+          "two_words_connector": " and ",
+          "words_connector": ", "
+        }
+      },
+      "time": {
+        "am": "am",
+        "formats": {
+          "default": "%a, %d %b %Y %H:%M:%S %z",
+          "long": "%B %d, %Y %H:%M",
+          "short": "%d %b %H:%M"
+        },
+        "pm": "pm"
+      },
+      "views": {
+        "pagination": {
+          "first": "First",
+          "last": "Last",
+          "next": "Next",
+          "previous": "Previous",
+          "truncate": ""
+        }
+      }
+    },
+    "location": {
+      "errors": {
+        "not_found": "That page was not found."
+      }
+    },
+    "location_group": {
+      "errors": {
+        "not_found": "That page was not found."
+      }
+    },
+    "orders": {
+      "reorder": {
+        "errors": {
+          "not_found": "Could not find order to reorder. Please wait a moment and try again."
+        },
+        "notices": {
+          "could_not_add_some": "Could not add some order items from order %{reference} to your cart: %{items}.",
+          "success": "Order items from order %{reference} have been added to your cart."
+        }
+      }
+    },
+    "page": {
+      "errors": {
+        "not_found": "That page was not found.",
+        "requires_membership": "You do not have the required membership level to access this page. Requires: %{membership_required}."
+      }
+    },
+    "product": {
+      "discontinued_name": "(Discontinued) %{name}"
+    },
+    "product_category": {
+      "errors": {
+        "not_found": "That page was not found."
+      }
+    },
+    "products": {
+      "add_to_cart": {
+        "errors": {
+          "select_option": "Please select an option...",
+          "unable_to_complete": "We were unable to complete your purchase, please contact support."
+        },
+        "notices": {
+          "added_to_cart": "%{name} added to your cart",
+          "updated_line_price": "The amount has been updated for: %{name}"
+        }
+      },
+      "default_text": {
+        "add_bundle_to_cart": "Add bundle to cart",
+        "add_to_cart": "Add to cart",
+        "buy_it_now": "Buy it Now",
+        "hide_price": "POA",
+        "out_of_stock": "Out of stock",
+        "unavailable": "Unavailable"
+      },
+      "errors": {
+        "not_found": "That product was not found."
+      },
+      "index": {
+        "breadcrumb": "All products"
+      }
+    },
+    "promo_codes": {
+      "apply": {
+        "errors": {
+          "insufficient_quantity": "Items in your cart do not meet the minimum quantity requirements for this promotion",
+          "invalid": "The requested promotion is unavailable",
+          "no_eligible_products": "The requested promotion is not valid for the items in this cart",
+          "no_longer_valid": "Promo code was removed as it is no longer valid",
+          "unexpected": "The promotion could not be added to your cart"
+        },
+        "notices": {
+          "success": "Promo code applied!"
+        }
+      }
+    },
+    "quotations": {
+      "errors": {
+        "not_enabled": "Quotations are not enabled for this Store"
+      }
+    },
+    "salesforce_payments": {
+      "errors": {
+        "incomplete_billing_address": "The Order is missing a Billing Address."
+      }
+    },
+    "shared": {
+      "breadcrumbs": {
+        "home": "Home"
+      },
+      "maintenance": "Maintenance is being performed. Please try again later."
+    },
+    "themes": {
+      "preview_bar": {
+        "label": "Previewing Theme:",
+        "options": {
+          "built_in_theme": "Built-in theme",
+          "close_preview": "Close Preview",
+          "label": "Options...",
+          "normal_theme": "Normal theme",
+          "recent_label": "Recent Themes:"
+        }
+      }
+    },
+    "vouchers": {
+      "apply": {
+        "errors": {
+          "expired": "Voucher has expired",
+          "fail": "The voucher could not be applied to your order. Please contact support for assistance.",
+          "no_balance": "Voucher has no balance",
+          "not_found": "Voucher not found"
+        },
+        "notices": {
+          "excludes_subscriptions": "Voucher has been applied. Please note: You can't use vouchers to pay for subscriptions.",
+          "success": "Voucher has been applied."
+        }
+      },
+      "descriptor": "Voucher",
+      "remove": {
+        "errors": {
+          "fail": "The voucher could not be removed from your cart. Please contact support for assistance."
+        },
+        "notices": {
+          "success": "Voucher removed"
+        }
+      }
+    }
+  },
+  "search": {
+    "articles": {
+      "index": {
+        "no_results": "There are no content article results"
+      }
+    },
+    "filters": {
+      "apply_filters": "Apply filters",
+      "category_placeholder": "Search %{name}",
+      "close": "Close",
+      "global_placeholder": "Filter by keywords",
+      "sources": "Search for"
+    },
+    "pages": {
+      "index": {
+        "no_results": "There are no content page results"
+      }
+    },
+    "products": {
+      "filters": {
+        "brands": "Brands",
+        "categories": "Categories",
+        "in_stock": "In Stock",
+        "on_sale": "On sale",
+        "price": "Price",
+        "price_and_availability": "Price & Availability",
+        "tags": "Tags"
+      },
+      "index": {
+        "no_results": "There are no product results"
+      }
+    },
+    "search_results": "Search Results",
+    "sources": {
+      "articles": "Articles",
+      "pages": "Pages",
+      "products": "Products"
+    }
+  },
+  "shared": {
+    "filters_button": {
+      "filter": "Filter",
+      "show": "Show"
+    },
+    "forms": {
+      "form_has_errors": "Please review the errors below."
+    },
+    "product_buttons": {
+      "add_to_cart": "Add to Cart",
+      "check_availability": "Check Availability",
+      "configure_bundle": "Configure Bundle",
+      "select_option": "Select Option"
+    },
+    "products": {
+      "product_comparison": "Product Comparison"
+    },
+    "quantity_picker": {
+      "label": "Qty ",
+      "update_label": "Update"
+    },
+    "screen": {
+      "close": "Close"
+    },
+    "sort": {
+      "sort": "Sort",
+      "sort_name_a_to_z": "Name A-Z",
+      "sort_name_z_to_a": "Name Z-A",
+      "sort_newest": "Newest",
+      "sort_oldest": "Oldest",
+      "sort_points_high_to_low": "Highest points",
+      "sort_points_low_to_high": "Lowest points",
+      "sort_position": "Featured",
+      "sort_price_high_to_low": "Highest price",
+      "sort_price_low_to_high": "Lowest price",
+      "sort_relevance": "Relevance"
+    },
+    "variable_pricing_picker": {
+      "label": "Price",
+      "other_amount": "Other Amount",
+      "placeholder": "Amount..."
+    }
+  },
+  "subscriptions": {
+    "term_units": {
+      "day": "day",
+      "days": "%{number} days",
+      "fortnight": "fortnight",
+      "month": "month",
+      "months": "%{number} months",
+      "week": "week",
+      "weeks": "%{number} weeks",
+      "year": "year",
+      "years": "%{number} years"
+    }
+  },
+  "vouchers": {
+    "show": {
+      "balance": "Balance",
+      "expires": "Expires",
+      "form": {
+        "code": "Enter voucher code",
+        "heading": "Check another code",
+        "submit": "Check"
+      },
+      "heading": "Check Voucher Balance",
+      "no_expiry": "Does not expire",
+      "not_found": "Voucher not found",
+      "orders": {
+        "date": "Date",
+        "heading": "Orders",
+        "reference": "Reference",
+        "total": "Total"
+      }
+    }
+  }
+}

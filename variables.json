@@ -1,0 +1,57 @@
+{
+  "checkout": {
+    "delivery_windows": {
+      "use_days": false
+    },
+    "pay_by_account": {
+      "require_po_number": true
+    }
+  },
+  "images": {
+    "ratio": {
+      "height": 5,
+      "width": 4
+    }
+  },
+  "locations": {
+    "search": {
+      "allow_product_filtering": true,
+      "default_distance": 20,
+      "multiple_categories": false
+    }
+  },
+  "product": {
+    "variants": {
+      "selector": {
+        "buttons": {
+          "maximum": 5
+        },
+        "clear": {
+          "load_master": false
+        }
+      },
+      "images": {
+        "max_variant_images": 8
+      }
+    }
+  },
+  "products": {
+    "per_page": 12,
+    "comparisons": false,
+    "card": {
+      "hide_purchase_button": false
+    },
+    "brands": true
+  },
+  "articles": {
+    "per_page": 12
+  },
+  "pages": {
+    "per_page": 12
+  },
+  "sources": {
+    "available": "products,articles,pages",
+    "default": "products,articles,pages",
+    "user_choice": true
+  }
+}
